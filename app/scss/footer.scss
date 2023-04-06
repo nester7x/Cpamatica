@@ -1,0 +1,52 @@
+.footer {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+  padding: 15px 0;
+  background: linear-gradient(180deg, #161820 0%, rgba(22, 24, 32, 0.85) 100%);
+
+  &.disabled {
+    display: none;
+  }
+
+  &__link {
+    font-size: 18px;
+    line-height: 22px;
+    color: $grey-color;
+    transition: .3s;
+  }
+
+  &__link:hover {
+    color: $accent-color;
+  }
+
+  span {
+    font-size: 18px;
+    line-height: 22px;
+    color: #DFE2EF;
+  }
+}
+
+/*768px*/
+
+@media (max-width: 768px) {
+  .footer {
+    &__inner {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+    }
+
+    &__link {
+      font-size: 16px;
+    }
+
+    span {
+      margin: 0 5px;
+    }
+  }
+}
+
+/*------*/

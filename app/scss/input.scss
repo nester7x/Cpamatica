@@ -1,0 +1,26 @@
+.input {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #7C8195;
+  padding: 5px 10px;
+  border-bottom: 1px solid #242634;
+  background-color: transparent;
+  position: relative;
+  min-width: 450px;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+/*568px*/
+
+@media (max-width: 568px) {
+  .input {
+    min-width: 300px;
+  }
+}
+
+/*------*/

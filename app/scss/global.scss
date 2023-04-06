@@ -1,0 +1,75 @@
+body {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.main {
+  margin: -85px 0 0;
+  flex: 1 0 auto;
+}
+
+.container {
+  max-width: 930px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.heading {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 75px;
+  line-height: 95px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+// custom scrollbar
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #b1b1b1;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+// custom scrollbar
+
+/*768px*/
+
+@media (max-width: 768px) {
+  .main {
+    margin: -69px 0 0;
+    flex: 1 0 auto;
+  }
+}
+
+/*------*/
+
+/*426px*/
+
+@media (max-width: 426px) {
+  .main {
+    margin: -69px 0 0;
+    flex: 1 0 auto;
+  }
+}
+
+/*------*/
